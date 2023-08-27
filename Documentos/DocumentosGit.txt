@@ -47,6 +47,14 @@ Te piden que clones el repositorio y cuando lo hagas crees una rama con tu nombr
 
 -- git checkout -b nombre-rama 
 
+Problema :
+
+Se necesita que configures la parte del usuario o email de github 
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com 
+
+
 Problema 2 : 
 
 Ya casi es hora de salida !! y te piden que subas tus cambios antes de irte  como lo harias?
@@ -80,6 +88,12 @@ llegas al dia siguiente y te das cuenta que hicieron cambios en la rama llamada 
 -- git merge develop 
 
 -- git push origin acuyuch
+
+Problema 3 :
+
+Se requiere revisar el historial del commit (como lo harias)
+
+-- git log 
 
 
 

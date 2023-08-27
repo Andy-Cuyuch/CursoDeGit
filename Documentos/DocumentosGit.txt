@@ -1,0 +1,39 @@
+Comandos Git 
+
+Estos son algunos de los comandos mas importantes de Git cada uno puede ser utilizado para una tarea 
+
+git init : Comando que inicializa un repositorio 
+
+git add  : Comando que pasa todos los archivos modificados al stagen 
+
+git commit -m "[UPDATE] Mensaje" : Es un registro o instantanea de los cambios de nuestro repositorio
+
+git push oringin rama : Es un comando que git utiliza para enviar o empujar tus cambios que tenes un local a un repo remoto 
+
+git pull : No ayuda a traer los cambios desde un repositorio remoto y fucionarlos
+
+git clone url : Es un comando que nos ayuda a clonar diferentes repositorios y tenerlos en  local 
+
+git status : Comando que nos muestra el proceso de nuestro archivos o todo lo que esta afuera de stagen 
+
+git log : Se utiliza para mostrar el historial de commits en nuestro repositorio
+
+git branch : Es un comando que podemos utilizar de mucho como por Ejemplo : [Ver la lista de ramas o crear una rama] 
+
+git checkout : Es un comando que nos ayuda a pasar de diferentes ramas 
+
+git merge : Es un comando que nos permite fusionar ramas Usualmente se usa para fusionar una rama de desarrollo en una rama principal.
+
+git tag : Crea etiquetas (tags) para marcar commits especificos, com versiones de lanzamiento
+
+git config : Configura opciones de git, como nombre de usaurio, direccion de correo
+electronico, alias etc.
+
+git rebase : Reorganiza el historial de commits, moviendo o combinando commits para crear
+una linea de tiempo mas limpia y lineal 
+
+
+
+
+
+

@@ -33,6 +33,55 @@ git rebase : Reorganiza el historial de commits, moviendo o combinando commits p
 una linea de tiempo mas limpia y lineal 
 
 
+Comandos hora laboral 
+
+
+Problema :
+Te piden que clones el repositorio y cuando lo hagas crees una rama con tu nombre y trabajes en ella 
+
+1. Clonar el repositorio 
+
+-- git clone copy url 
+
+2. Creancion de la rama 
+
+-- git checkout -b nombre-rama 
+
+Problema 2 : 
+
+Ya casi es hora de salida !! y te piden que subas tus cambios antes de irte  como lo harias?
+
+ -- Git checkout nombre-rama 
+
+ -- git add . 
+
+ -- git commit -m "Mensaje de lo que hiciste en el dia"
+
+ -- git push origin nombre-rama 
+
+Problema 3 : 
+
+llegas al dia siguiente y te das cuenta que hicieron cambios en la rama llamada develop y te dicen que bajes cambios 
+
+1. asugurate de no tener cambios en tu rama 
+
+-- git checkout develop 
+
+-- git pull origin develop  (bajas los cambios)
+
+-- git merge nombre-rama (unes tu rama con la develop si es necesario o no es opcional)
+
+-- git push oringin develop 
+
+2. ahora bien te pasas a tu rama 
+
+-- git checkout nombre-rama 
+
+-- git merge develop 
+
+-- git push origin acuyuch
+
+
 
 
 

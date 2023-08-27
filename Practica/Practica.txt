@@ -1,0 +1,7 @@
+-- Agregar archivos al stagen
+-- Creacion de commmits 
+-- Creacion de ramas 
+-- Creacion de etiquetas 
+
+-- Unir ramas a la rama main 
+-- Ver el proceso de lado de gitkraken 
